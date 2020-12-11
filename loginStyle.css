@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Oct, 2019, 8:24:01 PM
+    Author     : admin
+*/
+@import<link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+@import <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Century Gothic;
+}
+.login{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.sub2{
+    
+    float: left;
+    font-size: 25px;
+    border-bottom: 3px solid #4ca50f;
+    color: white;
+margin-bottom: 30px;
+padding: 13px 0;
+}
+
+.email{
+
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid #4ca50f;
+}
+.pass{
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid #4ca50f; 
+}
+.em{
+    font-family: 'Raleway', sans-serif;
+margin:8px 0;
+padding: 8px 0;
+font-size: 15px;
+color: whitesmoke;
+display: inline-block;
+
+}
+.ps{ width: 100%;
+     overflow: hidden;
+      font-family: 'Raleway', sans-serif;
+margin-right: 2em;
+
+padding:8px 0;
+font-size: 15px;
+color: whitesmoke;
+display: inline-block;
+
+
+    
+}
+.sv{
+    width: 100%;
+    overflow: hidden;
+        font-family: 'Raleway', sans-serif;
+margin:8px 0;
+padding: 8px 0;
+font-size: 17px;
+color: whitesmoke;
+display: inline-block;
+
+font-weight: 900;
+
+}
+.chk{
+    width:7%;
+     margin: -20px 1;
+    position: absolute;
+    color: black;
+    border: none;
+    height: 50px;
+    font-size: 10em;
+    padding: 0 10em;
+    float: left;
+}
+.sub1{
+        font-family: 'Raleway', sans-serif;
+margin: 0.5% 0% 0% 30%;
+font-size: 75px;
+color: whitesmoke;
+background-color: rgba(0,0,0,0.2);
+display: inline-block;
+}
+.bt1{ 
+    background-color: yellowgreen;
+     color: black;
+    border: none;
+    height: 30px;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+    font-family:'Raleway',sans-serif;
+    font-weight: 900;
+}
+.bt2{
+    background-color: yellowgreen;
+     color: black;
+    border: none;
+    height: 30px;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+    font-family:'Raleway',sans-serif;
+    font-weight: 900;
+}
+

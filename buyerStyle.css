@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Oct, 2019, 11:36:04 PM
+    Author     : admin
+*/
+@import <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Century Gothic;
+}
+.menu{
+    width: 100%;
+    background: #142b47;
+        overflow: auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30PX;
+}
+.menu li{
+    float: left;
+     padding: 3px 20px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+   font-weight: 500;
+}
+ul li a:hover{
+    background-color: orangered;
+
+    color: #000;
+   
+    
+}
+
+
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 570px; 
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family:Century Gothic;
+
+}
+.button{
+    float: right;
+    background: orangered;
+    color: white;
+    border-radius: 0 2px 3px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 2px;
+    font-family:Century Gothic;
+
+    border:none;
+    font-size: 16px;
+}
+h3{ font-family: 'Raleway', sans-serif;
+    
+margin:0;
+font-size: 45px;
+color: black;
+display: inline-block;
+}
